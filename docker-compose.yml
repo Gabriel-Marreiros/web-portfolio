@@ -1,0 +1,38 @@
+version: '3'
+
+name: web-portfolio
+
+services:
+
+  # backend:
+  #   image: gabrielmarreiros/web-portfolio-backend
+  #   container_name: web-porfolio-backend
+  #   build:
+  #     context: backend
+  #     dockerfile: Dockerfile
+  #     args:
+  #       - API_URL=$API_URL
+  #   environment:
+  #     - API_URL=${API_URL}
+  #   networks:
+  #     - web-portfolio-network
+
+  frontend:
+    image: gabrielmarreiros/web-portfolio-frontend
+    container_name: web-porfolio-frontend
+    build:
+      context: front-end
+      dockerfile: Dockerfile
+      # args:
+      #   - API_URL=$API_URL
+    # environment:
+    #   - API_URL=${API_URL}
+    # depends_on:
+    #   - backend
+    networks:
+      - web-portfolio-network
+
+networks:
+  web-portfolio-network:
+    name: web-portfolio-network
+    driver: bridge
