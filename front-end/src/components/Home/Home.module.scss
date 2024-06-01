@@ -1,0 +1,39 @@
+.home_container{
+    background: url('/images/home-background-image.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    height: 93vh;
+
+    @media (width < 575.98px) {
+        &{
+            background-position: 14.5% bottom;
+        }
+    }
+
+}
+
+.title{
+    font-size: 3.5rem;
+
+    @media (width < 575.98px) {
+        &{
+            font-size: 2.5rem
+        }
+    }
+}
+
+.sub_title::before{
+    content: "<";
+    display: inline-block;
+    color: var(--bs-red);
+}
+
+.sub_title::after{
+    content: "/>";
+    display: inline-block;
+    color: var(--bs-red);
+}
+
+
+
