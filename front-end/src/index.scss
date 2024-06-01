@@ -1,0 +1,55 @@
+@import "./sass/abstracts/_variables";
+@import "./sass/base/normalize";
+@import "./sass/base/reset";
+
+::-webkit-scrollbar, ::-webkit-scrollbar-track{
+    background: #090909;
+    color: #090909;
+    // width: .8rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #dc3545;
+    border-radius: 2rem;
+    border: 5px solid #090909;
+}
+
+@keyframes nav_item_underline {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.navbar-nav .nav-link.active::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, #540b11, #dc3545);
+    border-radius: 10px;
+    animation: nav_item_underline;
+    animation-duration: 330ms;
+}
+
+section:nth-child(even){
+    background-color: $light-black;
+}
+
+section:nth-child(odd){
+    background-color: $dark-gray;
+}
+
+.bg-light-black{
+    background-color: $light-black;
+}
+
+.bg-dark-gray{
+    background-color: $dark-gray;
+}
+
+.fs-6 {
+    font-size: 1.1rem;
+}

@@ -1,0 +1,9 @@
+.card_container{
+    width: 8rem;
+    height: 10rem;
+    transition: transform 250ms;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
