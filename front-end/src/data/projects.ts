@@ -7,7 +7,7 @@ const projects: Array<IProject> = [
         description: "Este projeto foi criado para mostrar a minha trajetória profissional e educacional, apresentar os meus projetos de estudo e freelancer, meus certificados de cursos, as tecnologias e ferramentas nas quais possuo conhecimento e os meus contatos.",
         coverImage: "/images/web-portfolio-project-cover-image.png",
         demonstrationVideo: "/videos/web-portfolio-demonstration-video.mp4",
-        repository: "https://github.com/Gabriel-Marreiros/Portfolio",
+        repository: "https://github.com/Gabriel-Marreiros/web-portfolio",
         usedTechnologies: [
             "React",
             "Typescript",
@@ -51,6 +51,48 @@ const projects: Array<IProject> = [
             "Spring",
             "Flyway",
             "MySQL",
+            "Docker"
+        ]
+    },
+    {
+        title: "Todo List React & Node.js",
+        description: "Todo List React & Node.js",
+        coverImage: "/images/todo-list-project-cover-image.png",
+        demonstrationVideo: "/videos/todo-list-demonstration-video.mp4",
+        repository: "https://github.com/Gabriel-Marreiros/todo-list-react-nodejs",
+        projectSite: "https://www.gabrielmarreiros.com.br/todo-list",
+        usedTechnologies: [
+            "React", 
+            "Typescript",
+            "Sass",
+            "Tailwind",
+            "NodeJS",
+            "Express",
+            "MongoDB",
+            "Kafka",
+            "Docker"
+        ]
+    },
+    {
+        title: "Observabilidade com Prometheus & Grafana",
+        description: "Para acessar utilize o usuário \"guest\" e a senha \"guest\"",
+        coverImage: "/images/grafana-project-cover-image.png",
+        demonstrationVideo: "/videos/grafana-demonstration-video.mp4",
+        projectSite: "https://www.gabrielmarreiros.com.br/grafana",
+        usedTechnologies: [
+            "Prometheus",
+            "Grafana",
+            "Docker"
+        ]
+    },
+    {
+        title: "CI/CD com Jenkins",
+        description: "Para acessar utilize o usuário \"guest\" e a senha \"guest\"",
+        coverImage: "/images/jenkins-project-cover-image.png",
+        demonstrationVideo: "/videos/jenkins-demonstration-video.mp4",
+        projectSite: "https://www.gabrielmarreiros.com.br/jenkins",
+        usedTechnologies: [
+            "Jenkins",
             "Docker"
         ]
     }

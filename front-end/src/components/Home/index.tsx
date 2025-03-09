@@ -34,7 +34,7 @@ function Home(){
 
                     <div className={`p-3`}>
                         <a href="Gabriel Marreiros - Curriculo.pdf" download className={`btn btn-danger text-decoration-none mx-2`}>Download CV</a>
-                        <a href="#projects" className={`btn btn-outline-danger text-decoration-none mx-2`}>Projetos</a>
+                        <a href="#projects" className={`btn btn-secondary border text-decoration-none mx-2`}>Projetos</a>
                     </div>
                 </div>
 

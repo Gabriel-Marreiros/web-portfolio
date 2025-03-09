@@ -10,25 +10,29 @@ const skills: Array<ISkill> = [
         image: "tecnologies-logos/css.png",
     },
     {
+        title: "JavaScript",
+        image: "tecnologies-logos/javascript.png",
+    },
+    {
         title: "Bootstrap",
         image: "tecnologies-logos/bootstrap.png",
+    },
+    {
+        title: "Tailwind",
+        image: "tecnologies-logos/tailwind.png",
     },
     {
         title: "Sass",
         image: "tecnologies-logos/sass.png",
     },
     {
-        title: "JavaScript",
-        image: "tecnologies-logos/javascript.png",
-    },
-    {
         title: "TypeScript",
         image: "tecnologies-logos/typescript.png",
     },
-    {
-        title: "JQuery",
-        image: "tecnologies-logos/jquery.png",
-    },
+    // {
+    //     title: "JQuery",
+    //     image: "tecnologies-logos/jquery.png",
+    // },
     {
         title: "React",
         image: "tecnologies-logos/react.png",
@@ -54,7 +58,7 @@ const skills: Array<ISkill> = [
         image: "tecnologies-logos/nodejs.png",
     },
     {
-        title: "Spring",
+        title: "Spring Boot",
         image: "tecnologies-logos/spring.png",
     },
     {
@@ -62,7 +66,7 @@ const skills: Array<ISkill> = [
         image: "tecnologies-logos/express.png",
     },
     {
-        title: "MySql",
+        title: "MySQL",
         image: "tecnologies-logos/mysql.png",
     },
     {
@@ -74,8 +78,28 @@ const skills: Array<ISkill> = [
         image: "tecnologies-logos/docker.png",
     },
     {
+        title: "Jenkins",
+        image: "tecnologies-logos/jenkins.png",
+    },
+    {
+        title: "Prometheus",
+        image: "tecnologies-logos/prometheus.png",
+    },
+    {
+        title: "Grafana",
+        image: "tecnologies-logos/grafana.png",
+    },
+    {
+        title: "Kafka",
+        image: "tecnologies-logos/kafka.png",
+    },
+    {
         title: "Git",
         image: "tecnologies-logos/git.png",
+    },
+    {
+        title: "AWS",
+        image: "tecnologies-logos/aws.png",
     },
 ]
 

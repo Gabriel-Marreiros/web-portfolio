@@ -12,7 +12,7 @@ function Navbar(){
             bg="black" 
             data-bs-theme="dark"
             as="header"
-            className={`shadow`}>
+            className={`shadow border-bottom border-dark`}>
 
             <Container as="nav">
 
