@@ -1,15 +1,13 @@
 
 
-import styles from "./AboutMe.module.scss"
-import "./timeline.scss"
+import styles from "./AboutMe.module.scss";
+import "./timeline.scss";
 
-import SectionTitle from "../SectionTitle"
-import image from "/images/gabriel-picture.jpg"
-import { Timeline } from "rsuite"
+import SectionTitle from "../SectionTitle";
+import image from "../../../public/images/gabriel-picture.jpg";
+import { Timeline } from "rsuite";
 import { RiGraduationCapFill } from "react-icons/ri";
 import { BsSuitcaseLgFill } from "react-icons/bs";
-
-
 
 function AboutMe() {
 
@@ -28,13 +26,10 @@ function AboutMe() {
 
                 <div className={`col-12 col-lg-5 fs-5 text-white `}>
                     <p>
-                        Desenvolvedor de Software com 2 anos de experiência, participei de diversos projetos para empresas de diferentes setores. Sou apaixonado por transformar ideias e conceitos em soluções tecnológicas que impactam positivamente empresas e pessoas.
+                        Desenvolvedor de Software com mais de 3 anos de experiência, participei de diversos projetos para empresas de diferentes setores. Sou apaixonado por transformar ideias e conceitos em soluções tecnológicas que impactam positivamente empresas e pessoas.
                     </p>
                     <p>
                         Minha flexibilidade e adaptabilidade são fortes ativos, tanto quanto minha capacidade de aprendizado rápido. Essas características se tornam evidentes quando trabalho em equipe, colaborando com colegas para resolver desafios complexos.
-                    </p>
-                    <p>
-                        Minha trajetória profissional iniciou-se em uma filial da Drogaria São Paulo, onde trabalhei por 3 anos. No entanto, o desejo de crescimento me levou à faculdade de tecnologia e a uma reviravolta na minha carreira. Hoje, como desenvolvedor, tenho a oportunidade de aplicar meus conhecimentos em diversos tipos de projetos para empresas de diferentes setores.
                     </p>
                     <p>
                         Estou ansioso para continuar minha evolução como programador, abraçando novos desafios e explorando novas possibilidades no mundo da tecnologia.
@@ -48,12 +43,17 @@ function AboutMe() {
             <div className={`col-11 col-md-6 py-4`}>
                 <Timeline align="alternate" className={`w-100 text-white`}>
                     <Timeline.Item dot={<BsSuitcaseLgFill />}>
-                        <h3 className={`fs-4 m-0`}>Freelancer</h3>
-                        <h4 className={`fs-5 fw-medium m-0`}>Desenvolvedor Full-stack</h4>
-                        <p className={`m-0`}>Março 2024 - Até o Momento</p>
+                        <h3 className={`fs-4 m-0`}>Gertec</h3>
+                        <h4 className={`fs-5 fw-medium m-0`}>Desenvolvedor de Software</h4>
+                        <p className={`m-0`}>Agosto 2024 - Até o Momento</p>
                     </Timeline.Item>
                     <Timeline.Item dot={<BsSuitcaseLgFill />}>
-                        <h3 className={`fs-4 m-0`}>Class Solutions LTDA</h3>
+                        <h3 className={`fs-4 m-0`}>Freelancer</h3>
+                        <h4 className={`fs-5 fw-medium m-0`}>Desenvolvedor Full-Stack</h4>
+                        <p className={`m-0`}>Março 2024 - junho 2024</p>
+                    </Timeline.Item>
+                    <Timeline.Item dot={<BsSuitcaseLgFill />}>
+                        <h3 className={`fs-4 m-0`}>Class Solutions</h3>
                         <h4 className={`fs-5 fw-medium m-0`}>Desenvolvedor Frontend</h4>
                         <p className={`m-0`}>Outubro 2022 - Fevereiro 2024</p>
                     </Timeline.Item>
