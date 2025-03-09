@@ -2,7 +2,7 @@ import React from 'react';
 import { Modal, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { IoClose } from "react-icons/io5";
 import { FaReact, FaAngular, FaSass, FaBootstrap, FaJava, FaNodeJs, FaDocker } from "react-icons/fa";
-import { SiSpring, SiExpress, SiMysql, SiJest, SiTypescript, SiJunit5, SiFlyway} from "react-icons/si";
+import { SiSpring, SiExpress, SiMysql, SiJest, SiTypescript, SiJunit5, SiFlyway, SiMongodb, SiTailwindcss, SiJenkins, SiGrafana, SiPrometheus, SiApachekafka } from "react-icons/si";
 import IProject from '../../../types/interfaces/IProject';
 import styles from './ProjectCardDetails.module.scss';
 import { IconType } from 'react-icons';
@@ -13,15 +13,21 @@ const TechnologiesIconsMap: Record<string, IconType> = {
     "Typescript": SiTypescript,
     "Sass": FaSass,
     "Bootstrap": FaBootstrap,
+    "Tailwind": SiTailwindcss,
     "Java": FaJava,
     "Spring": SiSpring,
     "Flyway": SiFlyway,
     "JUnit": SiJunit5,
-    "Node": FaNodeJs,
+    "NodeJS": FaNodeJs,
     "Express": SiExpress,
     "MySQL": SiMysql,
     "Jest": SiJest,  
-    "Docker": FaDocker 
+    "Docker": FaDocker,
+    "Kafka": SiApachekafka,
+    "MongoDB": SiMongodb,
+    "Jenkins": SiJenkins,
+    "Grafana": SiGrafana,
+    "Prometheus": SiPrometheus
 }
 
 interface projectCardDetailsProps {
