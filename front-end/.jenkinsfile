@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                dir('frontend') {
+                dir('front-end') {
                     echo 'Building the Docker image...'
 
                     sh 'docker build -t ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG} . --no-cache'
