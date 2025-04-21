@@ -44,13 +44,18 @@ function AboutMe() {
                 <Timeline align="alternate" className={`w-100 text-white`}>
                     <Timeline.Item dot={<BsSuitcaseLgFill />}>
                         <h3 className={`fs-4 m-0`}>Gertec</h3>
-                        <h4 className={`fs-5 fw-medium m-0`}>Desenvolvedor de Software</h4>
-                        <p className={`m-0`}>Agosto 2024 - Até o Momento</p>
+                        <h4 className={`fs-5 fw-medium m-0`}>Desenvolvedor de Software Pleno</h4>
+                        <p className={`m-0`}>Abril 2025 - Até o momento</p>
+                    </Timeline.Item>
+                    <Timeline.Item dot={<BsSuitcaseLgFill />}>
+                        <h3 className={`fs-4 m-0`}>Gertec</h3>
+                        <h4 className={`fs-5 fw-medium m-0`}>Desenvolvedor de Software Júnior</h4>
+                        <p className={`m-0`}>Agosto 2024 - Março 2025</p>
                     </Timeline.Item>
                     <Timeline.Item dot={<BsSuitcaseLgFill />}>
                         <h3 className={`fs-4 m-0`}>Freelancer</h3>
-                        <h4 className={`fs-5 fw-medium m-0`}>Desenvolvedor Full-Stack</h4>
-                        <p className={`m-0`}>Março 2024 - junho 2024</p>
+                        <h4 className={`fs-5 fw-medium m-0`}>Desenvolvedor Fullstack</h4>
+                        <p className={`m-0`}>Março 2024 - Junho 2024</p>
                     </Timeline.Item>
                     <Timeline.Item dot={<BsSuitcaseLgFill />}>
                         <h3 className={`fs-4 m-0`}>Class Solutions</h3>
@@ -58,14 +63,14 @@ function AboutMe() {
                         <p className={`m-0`}>Outubro 2022 - Fevereiro 2024</p>
                     </Timeline.Item>
                     <Timeline.Item dot={<RiGraduationCapFill />}>
-                        <h3 className={`fs-4 m-0`}>Centro Universitario Internacional UNINTER</h3>
+                        <h3 className={`fs-4 m-0`}>UNINTER - Centro Universitário Internacional</h3>
                         <h4 className={`fs-5 fw-medium m-0`}>Inglês</h4>
-                        <p className={`m-0`}>Julho 2023 - Até o Momento</p>
+                        <p className={`m-0`}>Julho 2023 - Até o momento</p>
                     </Timeline.Item>
                     <Timeline.Item dot={<RiGraduationCapFill />}>
-                        <h3 className={`fs-4 m-0`}>Centro Universitario Internacional UNINTER</h3>
+                        <h3 className={`fs-4 m-0`}>UNINTER - Centro Universitário Internacional</h3>
                         <h4 className={`fs-5 fw-medium m-0`}>Análise e Desenvolvimento de Sistemas</h4>
-                        <p className={`m-0`}>Julho 2022 - Até o Momento</p>
+                        <p className={`m-0`}>Julho 2022 - Até o momento</p>
                     </Timeline.Item>
                     <Timeline.Item dot={<BsSuitcaseLgFill />}>
                         <h3 className={`fs-4 m-0`}>Drogaria São Paulo</h3>
